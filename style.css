@@ -149,27 +149,28 @@ hr { border: .5px solid #403933;}
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 800
     text-align:center;
 }
 
 .hero h1 {
-	font-size: 80px;
-	color: white;
-	text-shadow: 0 0 10px #000;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 10px #000;
     margin-bottom: 20px;
 }
 
 .hero h2 {
-	font-size: 20px;
-	color: white;
-	background: #6b7667;
-	display:inline;
+    font-size: 20px;
+    color: white;
+    background: #6b7667;
+    display:inline;
     padding: 3px 10px;
     border-radius: 8px;
 }
     
 .bg-accent {
-      background-color: #646f61;  
+    background-color: #646f61;  
     padding: 20px;
     margin: 20px 0;
 }
