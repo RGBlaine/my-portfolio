@@ -1,30 +1,28 @@
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
+/*********************************
+ **    STYLE.CSS style sheet    **	
+ *********************************/
 
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
 
-/* -------  Structure ------- */
+/**********************
+ **     Structure    **
+ **********************/
 
 body {
-	background-image:url(images/subtle_white_mini_waves.png);
+  background-image:url(images/blue-abstract-1.png);
   margin: 0;
 }
 
 header {
 	height: 20px;
 	background-color: #403933;
-	background-image:url(images/subtle_brown_mini_waves.png);
+	background-image:url(images/blue-abstract-1.png);
 }
 
 footer {
 	height: 84px;
 	background-color: #403933;
-	background-image:url(images/subtle_brown_mini_waves.png);
+	background-image:url(images/blue-abstract-1.png);
 }
 
 .wrapper {
@@ -35,7 +33,9 @@ footer {
 
 
 
-/* -------  Logo ------- */
+/*******************
+ **    Headers    **
+ *******************/
 
 header h1 {
 	font-family: 'Playfair Display', serif;
@@ -55,7 +55,9 @@ header h2 {
 	text-align: center;
 }
 
-/* -------  Type ------- */
+/****************
+ **    Type    **
+ ****************/
 
 h1, h2 {
 	color: #403933;
@@ -74,7 +76,7 @@ p, li {
 }
 
 ul {
- list-style-image: url('images/common/coffee-cup-icon.png');
+ list-style-image: url('images/blue-abstract-1.png');
 }
 
 a {
@@ -102,21 +104,22 @@ footer a:hover { color: #a4cdbc; }
 footer a:active { color: #a4cdbc; }
 
 
-/* -------  Elements ------- */
+/**************************
+ **    Other Elements    **
+ **************************/
 
 img, iframe { border-radius: 8px;} 
 
 iframe { border: 1px solid #403933;}
 
 hr { border: .5px solid #403933;}
+}
 
-ul.coffee li {list-style-image: url('images/coffee-cup-icon.png');}
 
+/*******************
+ **    Spacers    **
+ *******************/  
 
-/* -------  Spacers ------- */  
-/* Note: There are better ways of creating space
-   in a web page, but this is an easy technique
-   for now. */
 
 .gap-sm {
     height: 50px;
@@ -137,7 +140,9 @@ ul.coffee li {list-style-image: url('images/coffee-cup-icon.png');}
 }
 
     
-/* -------  Layout ------- */ 
+/***************************
+ **    Layout Settings    **
+ ***************************/ 
        
 .hero {
     background-image: url(images/me-1.jpg);
