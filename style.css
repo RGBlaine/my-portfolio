@@ -148,9 +148,7 @@ hr { border: .5px solid #403933;}
     background-image: url(images/me-1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    width: 640 px;
-    height: 600 px;
+    background-size: auto;
     text-align:center;
 }
 
