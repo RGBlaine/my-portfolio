@@ -149,7 +149,8 @@ hr { border: .5px solid #403933;}
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 1600;
+    width: 640 px;
+    height: 600 px;
     text-align:center;
 }
 
