@@ -8,17 +8,11 @@
  /**********************
   **     Structure    **
   **********************/
- 
- body {
-   background-image:url(images/blue-abstract-1.png);
-   margin: 0;
- }
- 
+
  header {
-	 height: 20px;
-	 background-color: #403933;
-	 background-image:url(images/blue-abstract-1.png);
- }
+	background-color: #000;
+	margin-bottom: 40px;
+  }
  
  footer {
 	 height: 84px;
@@ -36,14 +30,29 @@
   **    Headers    **
   *******************/
  
- header h1 {
-	 font-family: 'Playfair Display', serif;
-	 color: #f0eee9;
-	 margin: 0px;
-	 padding-top: 24px;
-	 font-size: 48px;
-	 text-align:center;
- }
+  header h1 {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+  }
+
+  header nav {
+	display: flex;
+	justify-content: center;
+  }
+
+  header nav ul {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+  }
+
+  header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px 0 0;
+  }
  
  header h2 {
 	 font-family: 'Playfair Display', serif;
