@@ -15,13 +15,13 @@
   }
  
  footer {
-	 height: 84px;
+	 height: 15%;
 	 background-color: #403933;
 	 background-image:url(images/blue-abstract-1.png);
  }
  
  .wrapper {
-	 width: 580px;
+	 width: 90%;
 	 margin: auto;	
  }
  
