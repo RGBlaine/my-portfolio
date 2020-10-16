@@ -39,6 +39,10 @@ header h2 {
   text-align: center;
 }
 
+body {
+  justify: center;
+}
+
 @media all and (min-width: 800px) {
   header nav ul {
     flex-display: row;
