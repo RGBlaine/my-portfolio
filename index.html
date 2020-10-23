@@ -78,27 +78,20 @@
 				<li><a href="mailto:rgblaine70@gmail.com">Email</a></li>
 			</ul>
 
-			<hr>
+			<hr>"https://formspree.io/f/xyybeeqa"
 
-			<form action="https://formspree.io/f/xyybeeqa" method="POST">
-				<label>
-					Your Name:
-					<input type="text" name="_name">
-				</label>
-				<p></p>
-				<label>
-					Your Email:
-					<input type="text" name="_replyto">
-				</label>
-				<p></p>
-				<label>
-					Your Message:
-					<p></p>
-					<textarea name="_message"></textarea>
-				</label>
-				<p></p>
-				<button type="submit">Send</button>
-			</form>
+			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyybeeqa" method="post">
+   				<fieldset id="fs-frm-inputs">
+      					<label for="full-name">Full Name</label>
+      					<input type="text" name="name" id="full-name" placeholder="Michael Bubbly" required=""><p>/<p>
+      					<label for="email-address">Email Address</label>
+      					<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><p>/<p>
+      					<label for="message">Message</label><p>/<p>
+      					<textarea rows="5" name="message" id="message" placeholder="What's the fizz?" required=""></textarea>
+      					<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><p>/<p>
+    				</fieldset>
+    				<input type="submit" value="Submit"><p>/<p>
+  			</form>
 
 			<hr>
 
