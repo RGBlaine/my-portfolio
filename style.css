@@ -8,6 +8,10 @@
 	width: 100%;
 	margin-bottom: 40px;
 }
+
+img {
+	height: 100px;
+}
  
  footer {
 	 height: 15%;
@@ -17,6 +21,7 @@
 header h1 {
 	color: #fff;
 	text-align: center;
+	text-color: #000;
 	margin: 0;
 	padding-top: 20px;
 	padding-right: 20px;
@@ -59,5 +64,8 @@ header h1 {
 	header nav ul {
 	  flex-direction: row;
 	}
+	img {
+		height: 200px;
+	  }
   }
   
